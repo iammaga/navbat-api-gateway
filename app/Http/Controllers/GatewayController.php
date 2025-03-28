@@ -9,7 +9,7 @@ class GatewayController extends Controller
 {
     public function getBookings()
     {
-        return Http::get('http://127.0.0.1:8083/api/bookings')->body();
+        return Http::get('http://127.0.0.1:8081/api/bookings')->body();
     }
 
     public function getPayments()
